@@ -206,7 +206,7 @@ $settings = maybe_unserialize(get_option('upg_settings'));
             'rewrite' => array('slug'=>'upg', 'with_front'=>true),
             'capability_type' => 'post',
             'hierarchical' => true,
-            'menu_icon' =>'dashicons-format-image',
+            'menu_icon' =>'dashicons-format-gallery',
 			//'supports' => array('title','editor','author','excerpt','thumbnail','ptype','comments'/*,'custom-fields'*/) ,            
             'supports' => array('title','editor','upg_cate','comments','thumbnail','author'/*,'custom-fields'*/) ,
             'taxonomies' => array('upg_cate'),
