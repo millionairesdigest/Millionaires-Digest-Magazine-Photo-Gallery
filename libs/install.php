@@ -179,11 +179,11 @@ $settings = maybe_unserialize(get_option('upg_settings'));
 
 	$product="UPG-Post";
 
-    register_post_type("magazine_photo",array(
+    register_post_type("upg",array(
             
             'labels' => array(
-                'name' => __('Magazine Photos','wp-upg'),
-                'singular_name' => __('Magazine Photo','wp-upg'),
+                'name' => __('User Post Gallery','wp-upg'),
+                'singular_name' => __('UPG Post','wp-upg'),
                 'add_new' => __('Add '.$product,'wp-upg'),
                 'add_new_item' => __('Add New '.$product,'wp-upg'),
                 'edit_item' => __('Edit '.$product,'wp-upg'), 
@@ -203,13 +203,14 @@ $settings = maybe_unserialize(get_option('upg_settings'));
             'has_archive' => true,
             'show_ui' => true, 
             'query_var' => true,
-            'rewrite' => false,
+            'rewrite' => array('slug'=>'upg', 'with_front'=>true),
             'capability_type' => 'post',
             'hierarchical' => true,
-            'menu_icon' => 'dashicons-images-alt2',         
+            'menu_icon' =>upg_PLUGIN_URL.'/images/odude.png',
+			//'supports' => array('title','editor','author','excerpt','thumbnail','ptype','comments'/*,'custom-fields'*/) ,            
             'supports' => array('title','editor','upg_cate','comments','thumbnail','author'/*,'custom-fields'*/) ,
-            'taxonomies' => array('magazine_photo_category'),
-			'taxonomies' => array('magazine_photo_tag')
+            'taxonomies' => array('upg_cate'),
+			'taxonomies' => array('upg_tag')
              
         )
     );     
