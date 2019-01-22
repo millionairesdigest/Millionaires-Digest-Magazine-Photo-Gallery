@@ -1,13 +1,10 @@
 <?php
 /*
-Plugin Name: User Post Gallery
-Plugin URI: http://odude.com/
-Description: UPG - User Post Gallery. User can post content/images from frontend.
-Version: 1.73
-Author: ODude Network
-Author URI: http://odude.com/
-License: GPLv2 or later
-Text Domain: wp-upg
+Plugin Name: Millionaire's Digest Magazine Photo Gallery
+Description: Add the ability to upload and display images for the magazine on the frontend.
+Version: 1.0.0
+Author: K&L (Founder of the Millionaire's Digest)
+Author URI: https://millionairedigest.com/
 */
 
 	define('UPG_PLUGIN_VERSION', '1.73');
