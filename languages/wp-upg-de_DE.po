@@ -1,0 +1,749 @@
+# Copyright (C) 2016 User Photo Gallery
+# This file is distributed under the same license as the User Photo Gallery package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-upg\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-upg\n"
+"POT-Creation-Date: 2018-12-29 16:01+0545\n"
+"PO-Revision-Date: 2018-12-29 16:02+0545\n"
+"Last-Translator: \n"
+"Language-Team: Navneet\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addon.php:115
+#, fuzzy
+#| msgid "Search "
+msgid "Search"
+msgstr "Suche "
+
+#: classes/upg_FormEntries.class.php:244 classes/upg_FormEntries.class.php:245
+msgid "Mark as publish"
+msgstr ""
+
+#: classes/upg_FormEntries.class.php:248 classes/upg_FormEntries.class.php:249
+msgid "Mark as draft"
+msgstr ""
+
+#: layout/catalog.php:244
+msgid "You must login"
+msgstr ""
+
+#: layout/catalog.php:280
+#, fuzzy
+#| msgid "Layout Not Found. Check Settings and save update again."
+msgid "Layout Not Found. Check UPG Settings."
+msgstr ""
+"Layout nicht gefunden. Überprüfen Sie die Einstellungen und speichern Sie "
+"das Update erneut."
+
+#: layout/edit.php:73
+msgid "Grid File"
+msgstr ""
+
+#: layout/edit.php:74
+msgid "Preview File"
+msgstr ""
+
+#: layout/edit.php:75
+msgid "Pick File"
+msgstr ""
+
+#: layout/edit.php:76
+#, fuzzy
+#| msgid "Post Title"
+msgid "Post Form File"
+msgstr "Beitragstitel"
+
+#: layout/edit.php:77
+#, fuzzy
+#| msgid "Post Youtube URL"
+msgid "Post YouTube File"
+msgstr "YouTube-URL veröffentlichen"
+
+#: layout/form/basic/basic_edit_form.php:4
+#: layout/form/basic/basic_post_form.php:23
+#: layout/form/simple/simple_edit_form.php:6
+#: layout/form/simple/simple_post_form.php:24 libs/custom_column.php:9
+msgid "Title"
+msgstr "Titel"
+
+#: layout/form/basic/basic_edit_form.php:5
+#: layout/form/basic/basic_edit_youtube.php:5
+#: layout/form/basic/basic_post_form.php:24
+#: layout/form/basic/basic_post_youtube.php:25
+#: layout/form/simple/simple_edit_form.php:7
+#: layout/form/simple/simple_edit_youtube.php:8
+#: layout/form/simple/simple_post_form.php:25
+#: layout/form/simple/simple_post_youtube.php:25
+msgid "Post Title"
+msgstr "Beitragstitel"
+
+#: layout/form/basic/basic_edit_form.php:41
+#: layout/form/basic/basic_post_form.php:61
+msgid "Description"
+msgstr "Beschreibung"
+
+#: layout/form/basic/basic_edit_form.php:43
+#: layout/form/basic/basic_edit_youtube.php:44
+#: layout/form/basic/basic_post_form.php:63
+#: layout/form/basic/basic_post_youtube.php:64
+msgid "Post Content"
+msgstr "Inhalte veröffentlichen"
+
+#: layout/form/basic/basic_edit_form.php:58
+#: layout/form/basic/basic_edit_youtube.php:59
+#: layout/form/basic/basic_post_form.php:78
+#: layout/form/basic/basic_post_youtube.php:79
+msgid "Select Album/Group"
+msgstr "Wähle Album/Gruppe"
+
+#: layout/form/basic/basic_edit_form.php:107
+#: layout/form/simple/simple_edit_form.php:17
+msgid "Select new image to replace"
+msgstr ""
+
+#: layout/form/basic/basic_edit_form.php:115
+#, fuzzy
+#| msgid "Only picture files are allowed."
+msgid "Only picture files are allowed."
+msgstr "Nur Bilddateien sind erlaubt."
+
+#: layout/form/basic/basic_edit_form.php:116
+#, fuzzy
+#| msgid "Maximum upload file size limit is"
+msgid "Maximum upload file size limit is"
+msgstr "Die maximale Größe für Upload-Dateien ist"
+
+#: layout/form/basic/basic_edit_youtube.php:4
+#: layout/form/basic/basic_post_youtube.php:24
+#: layout/form/simple/simple_edit_youtube.php:7
+#: layout/form/simple/simple_post_youtube.php:24
+#, fuzzy
+#| msgid "Post Title"
+msgid "Video Title"
+msgstr "Beitragstitel"
+
+#: layout/form/basic/basic_edit_youtube.php:42
+#: layout/form/basic/basic_post_youtube.php:62
+#, fuzzy
+#| msgid "Description"
+msgid "Video Description"
+msgstr "Beschreibung"
+
+#: layout/form/basic/basic_edit_youtube.php:103
+#: layout/form/basic/basic_post_youtube.php:84
+#: layout/form/simple/simple_edit_youtube.php:18
+#: layout/form/simple/simple_post_youtube.php:35
+#, fuzzy
+#| msgid "Youtube URL"
+msgid "Youtube/Vimeo URL"
+msgstr "Youtube URL"
+
+#: layout/form/basic/basic_edit_youtube.php:105
+#: layout/form/basic/basic_post_youtube.php:85
+#: layout/form/simple/simple_edit_youtube.php:19
+#: layout/form/simple/simple_post_youtube.php:36
+#, fuzzy
+#| msgid "copy/paste Youtube URL"
+msgid "copy/paste Video URL"
+msgstr "Kopieren/Einfügen Youtube URL"
+
+#: layout/form/basic/basic_post_form.php:93
+#: layout/form/simple/simple_post_form.php:38
+msgid "Select Image"
+msgstr "Wähle Bild"
+
+#: layout/form/basic/basic_post_form.php:112
+#: layout/form/simple/simple_edit_form.php:25
+#, fuzzy
+#| msgid "Only picture files are allowed."
+msgid "Only picture files are allowed"
+msgstr "Nur Bilddateien sind erlaubt."
+
+#: layout/form/basic/basic_post_form.php:113
+#: layout/form/simple/simple_edit_form.php:26
+#, fuzzy
+#| msgid "Maximum upload file size limit is"
+msgid "Maximum upload file size limit:"
+msgstr "Die maximale Größe für Upload-Dateien ist"
+
+#: layout/form/basic/basic_post_youtube.php:87
+#: layout/form/simple/simple_edit_youtube.php:20
+#: layout/form/simple/simple_post_youtube.php:37
+msgid "Only URL from YouTube & Vimeo is allowed"
+msgstr ""
+
+#: layout/form/post_edit_image.php:25
+msgid "Updating personal form EDIT layout. Refresh page again."
+msgstr ""
+
+#: layout/form/post_edit_image.php:46 layout/form/post_edit_youtube.php:49
+#, fuzzy
+#| msgid "Pick Layout Not Found."
+msgid "Edit Layout Not Found."
+msgstr "Abholen-Layout nicht gefunden."
+
+#: layout/form/post_edit_image.php:74 layout/form/post_edit_youtube.php:71
+#, fuzzy
+#| msgid "Successfully posted."
+msgid "Successfully updated."
+msgstr "Erfolgreich übermittelt."
+
+#: layout/form/post_edit_image.php:119
+msgid "Error in Image file. Image not updated."
+msgstr ""
+
+#: layout/form/post_edit_image.php:131
+#, fuzzy
+#| msgid "View "
+msgid "View"
+msgstr "Ansicht "
+
+#: layout/form/post_edit_image.php:135
+#, fuzzy
+#| msgid "Edit "
+msgid "Edit"
+msgstr "Bearbeiten "
+
+#: layout/form/post_edit_youtube.php:28
+msgid "Updating personal edit form layout. Refresh page again."
+msgstr ""
+
+#: layout/form/post_edit_youtube.php:76
+msgid "Error in Video URL"
+msgstr ""
+
+#: layout/form/post_image.php:76 libs/functions.php:847
+msgid "Successfully posted."
+msgstr "Erfolgreich übermittelt."
+
+#: layout/form/post_image.php:77
+msgid "Click here to view"
+msgstr "Zur Ansicht hier klicken"
+
+#: layout/form/post_image.php:82 libs/functions.php:852
+msgid "Your submission is under review."
+msgstr "Ihre übermittelten Daten werden überprüft."
+
+#: layout/form/post_image.php:102
+msgid " error"
+msgstr "Fehler"
+
+#: layout/form/post_image.php:125 layout/form/post_youtube.php:39
+msgid "Updating personal form layout. Refresh page again."
+msgstr ""
+
+#: layout/form/post_image.php:135 layout/form/post_youtube.php:48
+#: layout/wppost.php:72
+msgid "Layout Not Found. Check Settings and save update again."
+msgstr ""
+"Layout nicht gefunden. Überprüfen Sie die Einstellungen und speichern Sie "
+"das Update erneut."
+
+#: layout/form/post_youtube.php:107 libs/functions.php:777
+#, fuzzy
+#| msgid "YouTube Video is successfully posted."
+msgid "Video is successfully posted."
+msgstr "Das YouTube Video wurde erfolgreich veröffentlicht."
+
+#: layout/form/post_youtube.php:114
+#, fuzzy
+#| msgid "YouTube video is under review"
+msgid "Your video is under review"
+msgstr "Das YouTube-Video wird überprüft"
+
+#: layout/grid/basic/basic_down.php:3 layout/grid/flat/flat_down.php:3
+#: layout/grid/list/list_down.php:3
+#, fuzzy
+#| msgid "Post Not found."
+msgid "No record found"
+msgstr "Beitrag nicht gefunden."
+
+#: layout/grid/basic/basic_main.php:15 layout/grid/flat/flat_main.php:30
+#: layout/grid/list/list_main.php:31 layout/media/basic/content.php:13
+msgid "Under review"
+msgstr ""
+
+#: layout/pick.php:48
+msgid "Pick Layout Not Found."
+msgstr "Abholen-Layout nicht gefunden."
+
+#: layout/pick.php:53
+msgid "Post Not found."
+msgstr "Beitrag nicht gefunden."
+
+#: libs/custom_column.php:10
+msgid "Author"
+msgstr "Autor"
+
+#: libs/custom_column.php:11
+msgid "Category"
+msgstr "Kategorie"
+
+#: libs/custom_column.php:12
+msgid "Image Layout"
+msgstr "Bild Layout"
+
+#: libs/custom_column.php:13
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: libs/custom_column.php:14
+msgid ""
+"<span class=\"vers\"><div title=\"Comments\" class=\"comment-grey-bubble\"></"
+"div></span>"
+msgstr ""
+"<span class=\"vers\"><div title=\"Kommentar\" class=\"comment-grey-bubble"
+"\"></div></span>"
+
+#: libs/custom_column.php:15
+msgid "Date"
+msgstr "Datum"
+
+#: libs/custom_column.php:70
+msgid "--"
+msgstr "--"
+
+#: libs/functions.php:782
+#, fuzzy
+#| msgid "Your submission is under review."
+msgid "Your video submission is under review."
+msgstr "Ihre übermittelten Daten werden überprüft."
+
+#: libs/functions.php:795 libs/functions.php:862
+msgid "Server error. Try again later"
+msgstr ""
+
+#: libs/install.php:173
+msgid "User Post Gallery"
+msgstr "Galerie Benutzerbeitrag"
+
+#: libs/install.php:174
+msgid "UPG Post"
+msgstr "UPG Beitrag"
+
+#: libs/install.php:175
+msgid "Add "
+msgstr "Hinzufügen "
+
+#: libs/install.php:176 libs/install.php:227 libs/install.php:252
+msgid "Add New "
+msgstr "Neu hinzufügen "
+
+#: libs/install.php:177 libs/install.php:225
+msgid "Edit "
+msgstr "Bearbeiten "
+
+#: libs/install.php:178 libs/install.php:228
+msgid "New "
+msgstr "Neu "
+
+#: libs/install.php:179
+msgid "View "
+msgstr "Ansicht "
+
+#: libs/install.php:180 libs/install.php:221
+msgid "Search "
+msgstr "Suche "
+
+#: libs/install.php:181 libs/install.php:182
+msgid "No "
+msgstr "Nein "
+
+#: libs/install.php:184
+msgid "Featured Icon/Logo"
+msgstr "Gekennzeichnetes Icon/Logo"
+
+#: libs/install.php:185
+msgid "Set featured Logo"
+msgstr "Setze gekennzeichnete Logo"
+
+#: libs/install.php:186
+msgid "Remove Logo"
+msgstr "Entferne Logo"
+
+#: libs/install.php:219
+msgid " Albums"
+msgstr "Album"
+
+#: libs/install.php:220
+msgid " Album"
+msgstr " Album"
+
+#: libs/install.php:222
+msgid "All "
+msgstr "Alle "
+
+#: libs/install.php:223 libs/install.php:224
+msgid "Parent "
+msgstr "Übergeordnet "
+
+#: libs/install.php:226
+msgid "Update "
+msgstr "Update "
+
+#: libs/install.php:229
+msgid "  Albums"
+msgstr "  Album"
+
+#: libs/install.php:244 libs/install.php:246 libs/install.php:254
+msgid " Tags"
+msgstr " Stichworte"
+
+#: libs/install.php:245
+msgid " Tag"
+msgstr " Stichwort"
+
+#: libs/install.php:247
+msgid " All Tags"
+msgstr " Alle Stichworte"
+
+#: libs/install.php:248
+msgid "Parent Tag"
+msgstr "Übergeordnete Stichworte"
+
+#: libs/install.php:249
+msgid "Parent Tag:"
+msgstr "Übergeordnetes Stichwort:"
+
+#: libs/install.php:250
+msgid "Edit Tag"
+msgstr "Bearbeite Stichwort"
+
+#: libs/install.php:251
+msgid "Update Tag"
+msgstr "Update Stichwort"
+
+#: libs/install.php:253
+msgid "New Tag Name"
+msgstr "Neuer Stichwort-Name"
+
+#: libs/metabox.php:8
+msgid "Main Image/Youtube"
+msgstr "Hauptbild/Youtube"
+
+#: libs/metabox.php:10
+msgid "Post Preview Layout"
+msgstr "Beitrags-Vorschau-Layout"
+
+#: libs/metabox.php:12
+msgid "Extra Custom Fields"
+msgstr "Zusätzliche benutzerdefinierte Felder"
+
+#: libs/metabox.php:79
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: libs/metabox.php:81
+#, fuzzy
+#| msgid "Post Youtube URL"
+msgid "Post Youtube/Vimeo URL"
+msgstr "YouTube-URL veröffentlichen"
+
+#: libs/taxonomy.php:7
+msgid "Hide at Front end during submission"
+msgstr "Während der Übermittlung an der Benutzeroberfläche ausblenden"
+
+#: libs/taxonomy.php:21
+msgid "Hide at Front End"
+msgstr "An der Benutzeroberfläche ausblenden"
+
+#: libs/taxonomy.php:47
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: setting.php:22 wp-upg.php:649
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: setting.php:28
+msgid "Quick Settings"
+msgstr "Schnelleinstellungen"
+
+#: setting.php:36
+#, fuzzy
+#| msgid "UPG Post Grid Layout"
+msgid "UPG's Grid Layout Settings"
+msgstr "UPG Beitrag Grid Layout"
+
+#: setting.php:44
+msgid "UPG's Submission form Settings"
+msgstr ""
+
+#: setting.php:53
+#, fuzzy
+#| msgid "UPG Post Preview Layout"
+msgid "UPG's Preview Layout Settings"
+msgstr "UPG Beitrags-Vorschau-Layout"
+
+#: setting.php:70
+#, fuzzy
+#| msgid "3rd Party Shortcode"
+msgid "Form Fields & Shortcodes"
+msgstr "Shortcode Drittanbieter"
+
+#: setting.php:79
+msgid "Custom Extra Fields"
+msgstr "Benutzerdefinierte Zusatzfelder"
+
+#: setting.php:87
+msgid "Shortcode for Position 1st"
+msgstr "Shortcode für an 1. Stelle"
+
+#: setting.php:94
+msgid "Shortcode for Position 2nd"
+msgstr "Shortcode für an 2. Stelle"
+
+#: setting.php:107
+msgid "Social Profile Settings"
+msgstr "Einstellungen für das soziale Profil"
+
+#: setting.php:114
+msgid "Member Profile Tab"
+msgstr ""
+
+#: setting.php:203
+#, fuzzy
+#| msgid ""
+#| "Ultimate-Member is Wordpress membership plugin\n"
+#| "that offers a member profile page.<br>After enabling the UPG plugin, you "
+#| "can cause\n"
+#| "the Ultimate-Member profile page to have an extra tab and that tab can "
+#| "show the UPG post of your choice.<br><br>Settings saved at above [UPG-"
+#| "Post Gallery] tab will be implemented."
+msgid ""
+"Ultimate-Member is Wordpress membership plugin\n"
+"that offers a member profile page.<br>After enabling the UPG plugin, you can "
+"cause\n"
+"the Ultimate-Member profile page to have an extra tab and that tab can show "
+"the UPG post of your choice.<br><br>Basic settings applied to UPG-Post tab."
+msgstr ""
+"Ultimate-Member is Wordpress membership plugin that offers a member profile "
+"page.<br>After enabling the UPG plugin, you can cause\n"
+"the Ultimate-Member profile page to have an extra tab and that tab can show "
+"the UPG post of your choice.<br><br>Settings saved at above [UPG-Post "
+"Gallery] tab will be implemented."
+
+#: setting.php:224
+msgid ""
+"Unpublished post are saved as draft. Admin must manually mark as published "
+"before it is visible to visitors."
+msgstr ""
+
+#: setting.php:227
+msgid ""
+"When not logged in user submit post the post must be assigned with username."
+msgstr ""
+
+#: setting.php:255 setting.php:402 setting.php:425 setting.php:447
+#, fuzzy
+#| msgid "Important Settings"
+msgid "Important settings"
+msgstr "Wichtige Einstellungen"
+
+#: setting.php:289
+msgid "wp-pagenavi plugin must be installed and active."
+msgstr ""
+
+#: setting.php:293
+msgid ""
+"Image will get enlarged at same page. There is no change in page hence no "
+"preview layout is used."
+msgstr ""
+
+#: setting.php:308
+msgid "Grid layout is where [upg-list] shortcode is used."
+msgstr ""
+
+#: setting.php:325
+msgid ""
+"This will check if the user is logged in or not and display the buttons "
+"according to it."
+msgstr ""
+
+#: setting.php:466 setting.php:472
+msgid "This settings doesn't get applied to personal layout."
+msgstr ""
+
+#: setting.php:476
+msgid ""
+"User at front-end don't require to post image compulsory but image upload "
+"field will be visible."
+msgstr ""
+
+#: setting.php:480
+#, fuzzy
+#| msgid "Hide at Front end during submission"
+msgid "Page doesn't get changed during form submission."
+msgstr "Während der Übermittlung an der Benutzeroberfläche ausblenden"
+
+#: setting.php:552
+msgid ""
+"Sometime due to special theme, UPG will show two titles. You need to enable "
+"to make it one."
+msgstr ""
+
+#: setting.php:586
+msgid ""
+"Shortcode to display submission on front page is [upg-post type=\"image\"] & "
+"[upg-post type=\"youtube\"]"
+msgstr ""
+
+#: setting.php:629
+#, fuzzy
+#| msgid "Quick Settings"
+msgid "Basic Settings"
+msgstr "Schnelleinstellungen"
+
+#: setting.php:632
+#, fuzzy
+#| msgid "Post Title"
+msgid "Form Fields"
+msgstr "Beitragstitel"
+
+#: setting.php:634
+msgid "Social Profile"
+msgstr "Soziale Netzwerke"
+
+#: widgets/categories.php:147 widgets/form.php:54
+msgid "New title"
+msgstr "Neuer Titel"
+
+#: widgets/categories.php:150
+msgid "Title:"
+msgstr "Titel:"
+
+#: widgets/categories.php:154
+msgid "Select Parent:"
+msgstr "Wähle übergeordnetes:"
+
+#: widgets/categories.php:157
+msgid "Select Parent"
+msgstr "Wähle übergeordnetes"
+
+#: widgets/categories.php:176
+msgid ""
+"Show only the immediate children of the selected category. Displays all the "
+"top level categories if no parent is selected."
+msgstr ""
+"Zeige nur die untergeordneten Elemente der ausgewählten Kategorie. Zeigt "
+"alle Top-Level-Kategorien, wenn kein übergeordnetes Element ausgewählt ist."
+
+#: widgets/categories.php:181
+msgid "Hide Empty Categories"
+msgstr "Leere Kategorien ausblenden"
+
+#: widgets/categories.php:186
+msgid "Show Listing Counts"
+msgstr "Zeige die Aufzählung"
+
+#: widgets/form.php:61
+#, fuzzy
+#| msgid "Post Title"
+msgid "Widget Title:"
+msgstr "Beitragstitel"
+
+#: widgets/form.php:65
+#, fuzzy
+#| msgid "Select Parent:"
+msgid "Select form type:"
+msgstr "Wähle übergeordnetes:"
+
+#: widgets/form.php:75
+#, fuzzy
+#| msgid "Select Image"
+msgid "Select form layout"
+msgstr "Wähle Bild"
+
+#: widgets/form.php:86
+#, fuzzy
+#| msgid "Post Preview Layout"
+msgid "Select preview layout"
+msgstr "Beitrags-Vorschau-Layout"
+
+#: widgets/form.php:94
+msgid "Preview layout is used if lightbox/popup is not enabled in grid layout."
+msgstr ""
+
+#: wp-upg.php:339
+msgid "You are not authorized to edit"
+msgstr ""
+
+#: wp-upg.php:345
+msgid "Login"
+msgstr "Einloggen"
+
+#: wp-upg.php:648
+msgid "Docs"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Edit Tag"
+#~ msgid "Edit Layout"
+#~ msgstr "Bearbeite Stichwort"
+
+#, fuzzy
+#~| msgid "Layout Not Found. Check Settings and save update again."
+#~ msgid "Edit Video Layout Not Found. Check Settings and save update again."
+#~ msgstr ""
+#~ "Layout nicht gefunden. Überprüfen Sie die Einstellungen und speichern Sie "
+#~ "das Update erneut."
+
+#, fuzzy
+#~| msgid "Global Settings"
+#~ msgid "Global Shortcode Settings"
+#~ msgstr "Globale Einstellungen"
+
+#~ msgid "Youtube Description"
+#~ msgstr "Youtube Beschreibung"
+
+#~ msgid "Youtube URL"
+#~ msgstr "Youtube URL"
+
+#~ msgid "copy/paste Youtube URL"
+#~ msgstr "Kopieren/Einfügen Youtube URL"
+
+#~ msgid "UPG Post Gallery"
+#~ msgstr "UPG Beitrags-Gallerie"
+
+#~ msgid ""
+#~ "You can include any other plugin shortcode or message. Eg. social share, "
+#~ "buttons, notices<br><br><b>Position 1st</b> = Just above the image "
+#~ "preview<br><b>Position 2nd</b>=Just below the image preview.<br>"
+#~ msgstr ""
+#~ "Sie können einen beliebigen anderen Plug-in-Shortcode oder eine andere "
+#~ "Nachricht einfügen. Z.B. teilen in sozialen Medien,Knöpfe, "
+#~ "Notizen<br><br><b>1. Stelle</b> = Direkt über dem Bild Vorschau<br><b>2. "
+#~ "Stelle</b>=Direkt unter der Bildvorschau.<br>"
+
+#~ msgid "UPG - User Post Gallery"
+#~ msgstr "UPG - Benutzerbeitragsgalerie"
+
+#~ msgid "Other's Plugin Shortcode"
+#~ msgstr "Anderes Plugin Shortcode"
+
+#, fuzzy
+#~| msgid "UPG Post"
+#~ msgid "Post"
+#~ msgstr "UPG Beitrag"
+
+#~ msgid "Youtube Title"
+#~ msgstr "Youtube Titel"
+
+#~ msgid "Ultimate-Member Settings"
+#~ msgstr "Ultimate-Member Settings"
+
+#~ msgid "UPG-Post Gallery"
+#~ msgstr "UPG Beitragsgalerie"
+
+#~ msgid "UPG Post Pick Layout"
+#~ msgstr "UPG Beitrag-Abholen-Layout"

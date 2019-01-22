@@ -1,0 +1,677 @@
+# Copyright (C) 2016 User Photo Gallery
+# This file is distributed under the same license as the User Photo Gallery package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-upg\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-upg\n"
+"POT-Creation-Date: 2018-12-01 15:03+0545\n"
+"PO-Revision-Date: 2018-12-01 15:03+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addon.php:113
+#, fuzzy
+#| msgid " Tag"
+msgid "Edit Layout"
+msgstr "टैग"
+
+#: addon.php:123
+#, fuzzy
+#| msgid "Search "
+msgid "Search"
+msgstr "खोजें"
+
+#: classes/upg_FormEntries.class.php:244 classes/upg_FormEntries.class.php:245
+msgid "Mark as publish"
+msgstr ""
+
+#: classes/upg_FormEntries.class.php:248 classes/upg_FormEntries.class.php:249
+msgid "Mark as draft"
+msgstr ""
+
+#: layout/catalog.php:244
+msgid "You must login"
+msgstr ""
+
+#: layout/catalog.php:280
+#, fuzzy
+#| msgid "Layout Not Found. Check Settings and save update again."
+msgid "Layout Not Found. Check UPG Settings."
+msgstr "लेआउट नहीं मिला। सेटिंग्स की जाँच करें और अद्यतन फिर से सहेजें।"
+
+#: layout/edit.php:73
+msgid "Grid File"
+msgstr ""
+
+#: layout/edit.php:74
+msgid "Preview File"
+msgstr ""
+
+#: layout/edit.php:75
+msgid "Pick File"
+msgstr ""
+
+#: layout/edit.php:76
+#, fuzzy
+#| msgid "Post Title"
+msgid "Post Form File"
+msgstr "पोस्ट शीर्शक"
+
+#: layout/edit.php:77
+#, fuzzy
+#| msgid "Post Youtube URL"
+msgid "Post YouTube File"
+msgstr "यूट्यूब वीडियो पोस्ट करें"
+
+#: layout/form/basic/basic_post_form.php:23
+#: layout/form/simple/simple_post_form.php:24 libs/custom_column.php:9
+msgid "Title"
+msgstr "पोस्ट शीर्शक"
+
+#: layout/form/basic/basic_post_form.php:24
+#: layout/form/basic/basic_post_youtube.php:25
+#: layout/form/simple/simple_post_form.php:25
+#: layout/form/simple/simple_post_youtube.php:25
+msgid "Post Title"
+msgstr "पोस्ट शीर्शक"
+
+#: layout/form/basic/basic_post_form.php:61
+msgid "Description"
+msgstr "विवरण"
+
+#: layout/form/basic/basic_post_form.php:63
+#: layout/form/basic/basic_post_youtube.php:64
+msgid "Post Content"
+msgstr "पोस्ट सामग्री"
+
+#: layout/form/basic/basic_post_form.php:78
+#: layout/form/basic/basic_post_youtube.php:79
+msgid "Select Album/Group"
+msgstr "एल्बम चयन करें"
+
+#: layout/form/basic/basic_post_form.php:93
+#: layout/form/simple/simple_post_form.php:38
+msgid "Select Image"
+msgstr "चित्र चुनें"
+
+#: layout/form/basic/basic_post_form.php:112
+#: layout/form/simple/simple_post_form.php:57
+#, fuzzy
+#| msgid "Only picture files are allowed."
+msgid "Only picture files are allowed"
+msgstr "केवल तस्वीर फ़ाइलों की अनुमति है"
+
+#: layout/form/basic/basic_post_form.php:113
+#: layout/form/simple/simple_post_form.php:58
+#, fuzzy
+#| msgid "Maximum upload file size limit is"
+msgid "Maximum upload file size limit:"
+msgstr "अधिकतम अपलोड फ़ाइल आकार की सीमा"
+
+#: layout/form/basic/basic_post_form.php:158
+#: layout/form/simple/simple_post_form.php:103
+msgid "Reset"
+msgstr ""
+
+#: layout/form/basic/basic_post_form.php:159
+#: layout/form/simple/simple_post_form.php:104
+msgid "Post"
+msgstr ""
+
+#: layout/form/basic/basic_post_youtube.php:24
+#: layout/form/simple/simple_post_youtube.php:24
+#, fuzzy
+#| msgid "Post Title"
+msgid "Video Title"
+msgstr "पोस्ट शीर्शक"
+
+#: layout/form/basic/basic_post_youtube.php:62
+#, fuzzy
+#| msgid "Description"
+msgid "Video Description"
+msgstr "विवरण"
+
+#: layout/form/basic/basic_post_youtube.php:84
+#: layout/form/simple/simple_post_youtube.php:35
+#, fuzzy
+#| msgid "Post Youtube URL"
+msgid "Youtube/Vimeo URL"
+msgstr "यूट्यूब वीडियो पोस्ट करें"
+
+#: layout/form/basic/basic_post_youtube.php:85
+#: layout/form/simple/simple_post_youtube.php:36
+#, fuzzy
+#| msgid "Post Youtube URL"
+msgid "copy/paste Video URL"
+msgstr "यूट्यूब वीडियो पोस्ट करें"
+
+#: layout/form/basic/basic_post_youtube.php:87
+#: layout/form/simple/simple_post_youtube.php:37
+msgid "Only URL from YouTube & Vimeo is allowed"
+msgstr ""
+
+#: layout/form/basic/basic_post_youtube.php:138
+#: layout/form/simple/simple_post_youtube.php:85
+msgid "Submit URL"
+msgstr ""
+
+#: layout/form/post_edit_image.php:25
+msgid "Updating personal form EDIT layout. Refresh page again."
+msgstr ""
+
+#: layout/form/post_edit_image.php:35
+msgid ""
+"Edit Layout Not Found. Purchase \"EDIT LAYOUT\" or create your own personal "
+"edit layout."
+msgstr ""
+
+#: layout/form/post_edit_image.php:62 layout/form/post_edit_youtube.php:58
+#, fuzzy
+#| msgid "Successfully posted."
+msgid "Successfully updated."
+msgstr "सफलतापूर्वक पोस्ट की गई"
+
+#: layout/form/post_edit_image.php:107
+msgid "Error in Image file. Image not updated."
+msgstr ""
+
+#: layout/form/post_edit_image.php:119
+msgid "View"
+msgstr "देखें"
+
+#: layout/form/post_edit_image.php:123
+#, fuzzy
+#| msgid " Tag"
+msgid "Edit"
+msgstr "टैग"
+
+#: layout/form/post_edit_youtube.php:28
+msgid "Updating personal edit form layout. Refresh page again."
+msgstr ""
+
+#: layout/form/post_edit_youtube.php:37
+#, fuzzy
+#| msgid "Layout Not Found. Check Settings and save update again."
+msgid "Edit Video Layout Not Found. Check Settings and save update again."
+msgstr "लेआउट नहीं मिला। सेटिंग्स की जाँच करें और अद्यतन फिर से सहेजें।"
+
+#: layout/form/post_edit_youtube.php:63
+msgid "Error in Video URL"
+msgstr ""
+
+#: layout/form/post_image.php:76 libs/functions.php:806
+msgid "Successfully posted."
+msgstr "सफलतापूर्वक पोस्ट की गई"
+
+#: layout/form/post_image.php:77
+msgid "Click here to view"
+msgstr "छवि देखें"
+
+#: layout/form/post_image.php:82 libs/functions.php:811
+msgid "Your submission is under review."
+msgstr "आपकी छवि की समीक्षा के तहत है।"
+
+#: layout/form/post_image.php:102
+msgid " error"
+msgstr ""
+
+#: layout/form/post_image.php:125 layout/form/post_youtube.php:39
+msgid "Updating personal form layout. Refresh page again."
+msgstr ""
+
+#: layout/form/post_image.php:135 layout/form/post_youtube.php:48
+#: layout/wppost.php:72
+msgid "Layout Not Found. Check Settings and save update again."
+msgstr "लेआउट नहीं मिला। सेटिंग्स की जाँच करें और अद्यतन फिर से सहेजें।"
+
+#: layout/form/post_youtube.php:107 libs/functions.php:736
+#, fuzzy
+#| msgid "YouTube Video is successfully posted."
+msgid "Video is successfully posted."
+msgstr "आपकी छवि सफलतापूर्वक पोस्ट किया जाता है।"
+
+#: layout/form/post_youtube.php:114
+#, fuzzy
+#| msgid "YouTube video is under review"
+msgid "Your video is under review"
+msgstr "यूट्यूब वीडियो समीक्षाधीन है"
+
+#: layout/grid/basic/basic_down.php:3 layout/grid/flat/flat_down.php:3
+#: layout/grid/list/list_down.php:3
+#, fuzzy
+#| msgid "Post Not found."
+msgid "No record found"
+msgstr "कोई छवि नहीं मिली"
+
+#: layout/grid/basic/basic_main.php:15 layout/grid/flat/flat_main.php:30
+#: layout/grid/list/list_main.php:31 layout/media/basic/content.php:13
+msgid "Under review"
+msgstr ""
+
+#: layout/pick.php:48
+#, fuzzy
+#| msgid "Post Not found."
+msgid "Pick Layout Not Found."
+msgstr "कोई छवि नहीं मिली"
+
+#: layout/pick.php:53
+msgid "Post Not found."
+msgstr "कोई छवि नहीं मिली"
+
+#: libs/custom_column.php:10
+msgid "Author"
+msgstr "लेखक"
+
+#: libs/custom_column.php:11
+msgid "Category"
+msgstr "वर्ग"
+
+#: libs/custom_column.php:12
+#, fuzzy
+#| msgid " Tag"
+msgid "Image Layout"
+msgstr "टैग"
+
+#: libs/custom_column.php:13
+msgid "Thumbnail"
+msgstr ""
+
+#: libs/custom_column.php:14
+msgid ""
+"<span class=\"vers\"><div title=\"Comments\" class=\"comment-grey-bubble\"></"
+"div></span>"
+msgstr ""
+
+#: libs/custom_column.php:15
+msgid "Date"
+msgstr ""
+
+#: libs/custom_column.php:70
+msgid "--"
+msgstr ""
+
+#: libs/functions.php:741
+#, fuzzy
+#| msgid "Your submission is under review."
+msgid "Your video submission is under review."
+msgstr "आपकी छवि की समीक्षा के तहत है।"
+
+#: libs/functions.php:754 libs/functions.php:821
+msgid "Server error. Try again later"
+msgstr ""
+
+#: libs/install.php:173
+msgid "User Post Gallery"
+msgstr ""
+
+#: libs/install.php:174
+msgid "UPG Post"
+msgstr ""
+
+#: libs/install.php:175
+#, fuzzy
+#| msgid "Add New "
+msgid "Add "
+msgstr "नया जोड़ें"
+
+#: libs/install.php:176 libs/install.php:227 libs/install.php:252
+msgid "Add New "
+msgstr "नया जोड़ें"
+
+#: libs/install.php:177 libs/install.php:225
+#, fuzzy
+#| msgid " Tag"
+msgid "Edit "
+msgstr "टैग"
+
+#: libs/install.php:178 libs/install.php:228
+msgid "New "
+msgstr "नया"
+
+#: libs/install.php:179
+#, fuzzy
+#| msgid "View"
+msgid "View "
+msgstr "देखें"
+
+#: libs/install.php:180 libs/install.php:221
+msgid "Search "
+msgstr "खोजें"
+
+#: libs/install.php:181 libs/install.php:182
+msgid "No "
+msgstr "नहीं"
+
+#: libs/install.php:184
+msgid "Featured Icon/Logo"
+msgstr ""
+
+#: libs/install.php:185
+msgid "Set featured Logo"
+msgstr ""
+
+#: libs/install.php:186
+msgid "Remove Logo"
+msgstr "लोगो निकालें"
+
+#: libs/install.php:219
+msgid " Albums"
+msgstr "सभी एल्बम"
+
+#: libs/install.php:220
+msgid " Album"
+msgstr "एल्बमः"
+
+#: libs/install.php:222
+msgid "All "
+msgstr "सभी"
+
+#: libs/install.php:223 libs/install.php:224
+#, fuzzy
+#| msgid "Select Parent"
+msgid "Parent "
+msgstr "पैरेंट का चयन करें"
+
+#: libs/install.php:226
+#, fuzzy
+#| msgid " Tag"
+msgid "Update "
+msgstr "टैग"
+
+#: libs/install.php:229
+msgid "  Albums"
+msgstr "एल्बम"
+
+#: libs/install.php:244 libs/install.php:246 libs/install.php:254
+msgid " Tags"
+msgstr "टैग्स"
+
+#: libs/install.php:245
+msgid " Tag"
+msgstr "टैग"
+
+#: libs/install.php:247
+#, fuzzy
+#| msgid " Tags"
+msgid " All Tags"
+msgstr "टैग्स"
+
+#: libs/install.php:248
+#, fuzzy
+#| msgid "Select Parent"
+msgid "Parent Tag"
+msgstr "पैरेंट का चयन करें"
+
+#: libs/install.php:249
+#, fuzzy
+#| msgid "Select Parent"
+msgid "Parent Tag:"
+msgstr "पैरेंट का चयन करें"
+
+#: libs/install.php:250
+#, fuzzy
+#| msgid " Tag"
+msgid "Edit Tag"
+msgstr "टैग"
+
+#: libs/install.php:251
+#, fuzzy
+#| msgid " Tag"
+msgid "Update Tag"
+msgstr "टैग"
+
+#: libs/install.php:253
+msgid "New Tag Name"
+msgstr ""
+
+#: libs/metabox.php:8
+msgid "Main Image/Youtube"
+msgstr ""
+
+#: libs/metabox.php:10
+msgid "Post Preview Layout"
+msgstr ""
+
+#: libs/metabox.php:12
+#, fuzzy
+#| msgid "Post Title"
+msgid "Extra Custom Fields"
+msgstr "पोस्ट शीर्शक"
+
+#: libs/metabox.php:79
+msgid "Upload Image"
+msgstr "छवि अपलोड करें"
+
+#: libs/metabox.php:81
+#, fuzzy
+#| msgid "Post Youtube URL"
+msgid "Post Youtube/Vimeo URL"
+msgstr "यूट्यूब वीडियो पोस्ट करें"
+
+#: libs/taxonomy.php:7
+msgid "Hide at Front end during submission"
+msgstr ""
+
+#: libs/taxonomy.php:21
+msgid "Hide at Front End"
+msgstr ""
+
+#: libs/taxonomy.php:47
+msgid "Hide"
+msgstr ""
+
+#: setting.php:22
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: setting.php:28
+msgid "Quick Settings"
+msgstr "शीग्र सेटिंग्स"
+
+#: setting.php:36
+msgid "UPG's Grid Layout Settings"
+msgstr ""
+
+#: setting.php:44
+msgid "UPG's Submission form Settings"
+msgstr ""
+
+#: setting.php:53
+msgid "UPG's Preview Layout Settings"
+msgstr ""
+
+#: setting.php:70
+#, fuzzy
+#| msgid "Post Title"
+msgid "Form Fields & Shortcodes"
+msgstr "पोस्ट शीर्शक"
+
+#: setting.php:79
+#, fuzzy
+#| msgid "Post Title"
+msgid "Custom Extra Fields"
+msgstr "पोस्ट शीर्शक"
+
+#: setting.php:87
+msgid "Shortcode for Position 1st"
+msgstr ""
+
+#: setting.php:94
+msgid "Shortcode for Position 2nd"
+msgstr ""
+
+#: setting.php:107
+msgid "Social Profile Settings"
+msgstr ""
+
+#: setting.php:114
+msgid "Member Profile Tab"
+msgstr ""
+
+#: setting.php:203
+msgid ""
+"Ultimate-Member is Wordpress membership plugin\n"
+"that offers a member profile page.<br>After enabling the UPG plugin, you can "
+"cause\n"
+"the Ultimate-Member profile page to have an extra tab and that tab can show "
+"the UPG post of your choice.<br><br>Basic settings applied to UPG-Post tab."
+msgstr ""
+
+#: setting.php:224
+msgid ""
+"Unpublished post are saved as draft. Admin must manually mark as published "
+"before it is visible to visitors."
+msgstr ""
+
+#: setting.php:227
+msgid ""
+"When not logged in user submit post the post must be assigned with username."
+msgstr ""
+
+#: setting.php:287
+msgid "wp-pagenavi plugin must be installed and active."
+msgstr ""
+
+#: setting.php:291
+msgid ""
+"Image will get enlarged at same page. There is no change in page hence no "
+"preview layout is used."
+msgstr ""
+
+#: setting.php:306
+msgid "Grid layout is where [upg-list] shortcode is used."
+msgstr ""
+
+#: setting.php:323
+msgid ""
+"This will check if the user is logged in or not and display the buttons "
+"according to it."
+msgstr ""
+
+#: setting.php:456 setting.php:462
+msgid "This settings doesn't get applied to personal layout."
+msgstr ""
+
+#: setting.php:466
+msgid ""
+"User at front-end don't require to post image compulsory but image upload "
+"field will be visible."
+msgstr ""
+
+#: setting.php:470
+msgid "Page doesn't get changed during form submission."
+msgstr ""
+
+#: setting.php:542
+msgid ""
+"Sometime due to special theme, UPG will show two titles. You need to enable "
+"to make it one."
+msgstr ""
+
+#: setting.php:576
+msgid ""
+"Shortcode to display submission on front page is [upg-post type=\"image\"] & "
+"[upg-post type=\"youtube\"]"
+msgstr ""
+
+#: setting.php:619
+#, fuzzy
+#| msgid "Quick Settings"
+msgid "Basic Settings"
+msgstr "शीग्र सेटिंग्स"
+
+#: setting.php:622
+#, fuzzy
+#| msgid "Post Title"
+msgid "Form Fields"
+msgstr "पोस्ट शीर्शक"
+
+#: setting.php:624
+msgid "Social Profile"
+msgstr ""
+
+#: widgets/categories.php:147 widgets/form.php:54
+msgid "New title"
+msgstr "पृष्ठ शीर्षकः"
+
+#: widgets/categories.php:150
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: widgets/categories.php:154
+msgid "Select Parent:"
+msgstr "पैरेंट का चयन करें:"
+
+#: widgets/categories.php:157
+msgid "Select Parent"
+msgstr "पैरेंट का चयन करें"
+
+#: widgets/categories.php:176
+msgid ""
+"Show only the immediate children of the selected category. Displays all the "
+"top level categories if no parent is selected."
+msgstr ""
+
+#: widgets/categories.php:181
+msgid "Hide Empty Categories"
+msgstr "खाली फ़ोल्डर छुपाएं"
+
+#: widgets/categories.php:186
+msgid "Show Listing Counts"
+msgstr ""
+
+#: widgets/form.php:61
+#, fuzzy
+#| msgid "Post Title"
+msgid "Widget Title:"
+msgstr "पोस्ट शीर्शक"
+
+#: widgets/form.php:65
+#, fuzzy
+#| msgid "Select Parent:"
+msgid "Select form type:"
+msgstr "पैरेंट का चयन करें:"
+
+#: widgets/form.php:75
+#, fuzzy
+#| msgid "Select Image"
+msgid "Select form layout"
+msgstr "चित्र चुनें"
+
+#: widgets/form.php:86
+msgid "Select preview layout"
+msgstr ""
+
+#: widgets/form.php:94
+msgid "Preview layout is used if lightbox/popup is not enabled in grid layout."
+msgstr ""
+
+#: wp-upg.php:338
+msgid "You are not authorized to edit"
+msgstr ""
+
+#: wp-upg.php:344
+msgid "Login"
+msgstr "लॉगिन"
+
+#~ msgid "Important Settings"
+#~ msgstr "महत्वपूर्ण सेटिंग्स"
+
+#~ msgid "Youtube Title"
+#~ msgstr "Youtube शीर्षक"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Youtube Description"
+#~ msgstr "विवरण"
+
+#~ msgid "Picture Title"
+#~ msgstr "चित्र शीर्षक"
