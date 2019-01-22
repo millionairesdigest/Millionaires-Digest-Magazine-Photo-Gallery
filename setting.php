@@ -2,10 +2,9 @@
 function upg_add_admin_menu(  ) 
 { 
 
-	add_submenu_page( 'edit.php?post_type=upg', 'User Post Gallery Settings', 'UPG Settings', 'manage_options', 'wp_upg', 'upg_options_page' );
-	add_submenu_page( 'edit.php?post_type=upg', 'Edit UPG Layouts', 'Layout Editor', 'manage_options', 'wp_upg_layout', 'upg_layout_page' );
-	add_submenu_page( 'edit.php?post_type=upg', 'User Post Gallery Help', 'Help / System Check', 'manage_options', 'wp_upg_help', 'upg_help_page' );
-	add_submenu_page( 'edit.php?post_type=upg', 'FREE and Premium plugins', 'UPG Addons', 'manage_options', 'wp_upg_addon', 'upg_addon_page' );
+	add_submenu_page( 'edit.php?post_type=upg', 'Gallery Settings', 'UPG Settings', 'manage_options', 'wp_upg', 'upg_options_page' );
+	add_submenu_page( 'edit.php?post_type=upg', 'Edit Layouts', 'Layout Editor', 'manage_options', 'wp_upg_layout', 'upg_layout_page' );
+	add_submenu_page( 'edit.php?post_type=upg', 'Additional Help', 'Help / System Check', 'manage_options', 'wp_upg_help', 'upg_help_page' );
 }
 
 
