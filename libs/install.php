@@ -182,7 +182,7 @@ $settings = maybe_unserialize(get_option('upg_settings'));
     register_post_type("upg",array(
             
             'labels' => array(
-                'name' => __('User Post Gallery','wp-upg'),
+                'name' => __('Gallery','wp-upg'),
                 'singular_name' => __('UPG Post','wp-upg'),
                 'add_new' => __('Add '.$product,'wp-upg'),
                 'add_new_item' => __('Add New '.$product,'wp-upg'),
@@ -206,7 +206,7 @@ $settings = maybe_unserialize(get_option('upg_settings'));
             'rewrite' => array('slug'=>'upg', 'with_front'=>true),
             'capability_type' => 'post',
             'hierarchical' => true,
-            'menu_icon' =>upg_PLUGIN_URL.'/images/odude.png',
+            'menu_icon' =>'dashicons-format-image',
 			//'supports' => array('title','editor','author','excerpt','thumbnail','ptype','comments'/*,'custom-fields'*/) ,            
             'supports' => array('title','editor','upg_cate','comments','thumbnail','author'/*,'custom-fields'*/) ,
             'taxonomies' => array('upg_cate'),
